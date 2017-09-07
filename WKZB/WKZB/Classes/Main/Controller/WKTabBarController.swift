@@ -18,7 +18,7 @@ class WKTabBarController: UITabBarController {
         addchildsVc(name: "WKRankViewController")
         addchildsVc(name: "WKFindViewController")
         addchildsVc(name: "WKMyViewController")
-//        27 210 188
+
         tabBar.tintColor = UIColor(r: 128, g: 222, b: 202)
         
     }

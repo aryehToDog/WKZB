@@ -25,6 +25,11 @@
 		25B649161F6001E500490BFC /* WKNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649151F6001E500490BFC /* WKNavViewController.swift */; };
 		25B6491E1F60F28C00490BFC /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6491B1F60F28C00490BFC /* UIBarButtonItem-Extension.swift */; };
 		25B6491F1F60F28C00490BFC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6491C1F60F28C00490BFC /* UIColor+Extension.swift */; };
+		25B649211F60F3D200490BFC /* WKPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649201F60F3D200490BFC /* WKPageView.swift */; };
+		25B649231F60F3E100490BFC /* WKPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649221F60F3E100490BFC /* WKPageTitleView.swift */; };
+		25B649251F60F3F700490BFC /* WKPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649241F60F3F700490BFC /* WKPageContentView.swift */; };
+		25B649271F60F60500490BFC /* WKPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649261F60F60500490BFC /* WKPageStyle.swift */; };
+		25B649291F60F8DD00490BFC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649281F60F8DD00490BFC /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		25B649151F6001E500490BFC /* WKNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNavViewController.swift; sourceTree = "<group>"; };
 		25B6491B1F60F28C00490BFC /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		25B6491C1F60F28C00490BFC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		25B649201F60F3D200490BFC /* WKPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKPageView.swift; sourceTree = "<group>"; };
+		25B649221F60F3E100490BFC /* WKPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKPageTitleView.swift; sourceTree = "<group>"; };
+		25B649241F60F3F700490BFC /* WKPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKPageContentView.swift; sourceTree = "<group>"; };
+		25B649261F60F60500490BFC /* WKPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKPageStyle.swift; sourceTree = "<group>"; };
+		25B649281F60F8DD00490BFC /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +199,10 @@
 			isa = PBXGroup;
 			children = (
 				25B648E61F5FF28300490BFC /* Main.storyboard */,
+				25B649201F60F3D200490BFC /* WKPageView.swift */,
+				25B649261F60F60500490BFC /* WKPageStyle.swift */,
+				25B649221F60F3E100490BFC /* WKPageTitleView.swift */,
+				25B649241F60F3F700490BFC /* WKPageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +352,7 @@
 		25B6491D1F60F28C00490BFC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				25B649281F60F8DD00490BFC /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -487,11 +502,16 @@
 				25B6491E1F60F28C00490BFC /* UIBarButtonItem-Extension.swift in Sources */,
 				25B6490E1F5FFC5F00490BFC /* WKMyViewController.swift in Sources */,
 				25B6491F1F60F28C00490BFC /* UIColor+Extension.swift in Sources */,
+				25B649251F60F3F700490BFC /* WKPageContentView.swift in Sources */,
+				25B649271F60F60500490BFC /* WKPageStyle.swift in Sources */,
 				25B6490A1F5FFC4800490BFC /* WKFindViewController.swift in Sources */,
+				25B649291F60F8DD00490BFC /* Common.swift in Sources */,
 				25B648B51F5FEF3000490BFC /* AppDelegate.swift in Sources */,
 				25B649161F6001E500490BFC /* WKNavViewController.swift in Sources */,
 				25B649011F5FF39200490BFC /* WKLiveViewController.swift in Sources */,
+				25B649211F60F3D200490BFC /* WKPageView.swift in Sources */,
 				25B649061F5FFC1E00490BFC /* WKRankViewController.swift in Sources */,
+				25B649231F60F3E100490BFC /* WKPageTitleView.swift in Sources */,
 				25B648FE1F5FF34800490BFC /* WKTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
