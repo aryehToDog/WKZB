@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		25B648B51F5FEF3000490BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648B41F5FEF3000490BFC /* AppDelegate.swift */; };
-		25B648B71F5FEF3000490BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648B61F5FEF3000490BFC /* ViewController.swift */; };
-		25B648BA1F5FEF3000490BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B648B81F5FEF3000490BFC /* Main.storyboard */; };
 		25B648BC1F5FEF3000490BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B648BB1F5FEF3000490BFC /* Assets.xcassets */; };
 		25B648BF1F5FEF3000490BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B648BD1F5FEF3000490BFC /* LaunchScreen.storyboard */; };
 		25B648CA1F5FEF3000490BFC /* WKZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648C91F5FEF3000490BFC /* WKZBTests.swift */; };
 		25B648D51F5FEF3000490BFC /* WKZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648D41F5FEF3000490BFC /* WKZBUITests.swift */; };
+		25B648E71F5FF28300490BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B648E61F5FF28300490BFC /* Main.storyboard */; };
+		25B648FE1F5FF34800490BFC /* WKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648EB1F5FF34800490BFC /* WKTabBarController.swift */; };
+		25B649011F5FF39200490BFC /* WKLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B648FF1F5FF39200490BFC /* WKLiveViewController.swift */; };
+		25B649041F5FF3B100490BFC /* WKLiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B649031F5FF3B100490BFC /* WKLiveViewController.storyboard */; };
+		25B649061F5FFC1E00490BFC /* WKRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649051F5FFC1E00490BFC /* WKRankViewController.swift */; };
+		25B649081F5FFC2B00490BFC /* WKRankViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B649071F5FFC2B00490BFC /* WKRankViewController.storyboard */; };
+		25B6490A1F5FFC4800490BFC /* WKFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649091F5FFC4800490BFC /* WKFindViewController.swift */; };
+		25B6490C1F5FFC5100490BFC /* WKFindViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B6490B1F5FFC5100490BFC /* WKFindViewController.storyboard */; };
+		25B6490E1F5FFC5F00490BFC /* WKMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6490D1F5FFC5F00490BFC /* WKMyViewController.swift */; };
+		25B649101F5FFC6900490BFC /* WKMyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B6490F1F5FFC6900490BFC /* WKMyViewController.storyboard */; };
+		25B649161F6001E500490BFC /* WKNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B649151F6001E500490BFC /* WKNavViewController.swift */; };
+		25B6491E1F60F28C00490BFC /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6491B1F60F28C00490BFC /* UIBarButtonItem-Extension.swift */; };
+		25B6491F1F60F28C00490BFC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6491C1F60F28C00490BFC /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +47,6 @@
 /* Begin PBXFileReference section */
 		25B648B11F5FEF3000490BFC /* WKZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B648B41F5FEF3000490BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25B648B61F5FEF3000490BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25B648B91F5FEF3000490BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25B648BB1F5FEF3000490BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B648BE1F5FEF3000490BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B648C01F5FEF3000490BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,19 @@
 		25B648D01F5FEF3000490BFC /* WKZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B648D41F5FEF3000490BFC /* WKZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKZBUITests.swift; sourceTree = "<group>"; };
 		25B648D61F5FEF3000490BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B648E61F5FF28300490BFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Main.storyboard; sourceTree = "<group>"; };
+		25B648EB1F5FF34800490BFC /* WKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKTabBarController.swift; sourceTree = "<group>"; };
+		25B648FF1F5FF39200490BFC /* WKLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKLiveViewController.swift; sourceTree = "<group>"; };
+		25B649031F5FF3B100490BFC /* WKLiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WKLiveViewController.storyboard; path = "WKZB/Classes/直播/Controller/WKLiveViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		25B649051F5FFC1E00490BFC /* WKRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKRankViewController.swift; sourceTree = "<group>"; };
+		25B649071F5FFC2B00490BFC /* WKRankViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WKRankViewController.storyboard; path = "WKZB/Classes/排行/Controller/WKRankViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		25B649091F5FFC4800490BFC /* WKFindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKFindViewController.swift; sourceTree = "<group>"; };
+		25B6490B1F5FFC5100490BFC /* WKFindViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WKFindViewController.storyboard; path = "WKZB/Classes/发现/Controller/WKFindViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		25B6490D1F5FFC5F00490BFC /* WKMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMyViewController.swift; sourceTree = "<group>"; };
+		25B6490F1F5FFC6900490BFC /* WKMyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WKMyViewController.storyboard; path = "WKZB/Classes/我的/Controller/WKMyViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		25B649151F6001E500490BFC /* WKNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNavViewController.swift; sourceTree = "<group>"; };
+		25B6491B1F60F28C00490BFC /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		25B6491C1F60F28C00490BFC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +119,8 @@
 		25B648B31F5FEF3000490BFC /* WKZB */ = {
 			isa = PBXGroup;
 			children = (
+				25B648E81F5FF34800490BFC /* Classes */,
 				25B648B41F5FEF3000490BFC /* AppDelegate.swift */,
-				25B648B61F5FEF3000490BFC /* ViewController.swift */,
-				25B648B81F5FEF3000490BFC /* Main.storyboard */,
 				25B648BB1F5FEF3000490BFC /* Assets.xcassets */,
 				25B648BD1F5FEF3000490BFC /* LaunchScreen.storyboard */,
 				25B648C01F5FEF3000490BFC /* Info.plist */,
@@ -123,6 +144,202 @@
 				25B648D61F5FEF3000490BFC /* Info.plist */,
 			);
 			path = WKZBUITests;
+			sourceTree = "<group>";
+		};
+		25B648E81F5FF34800490BFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25B648E91F5FF34800490BFC /* Main */,
+				25B648FA1F5FF34800490BFC /* 直播 */,
+				25B648F61F5FF34800490BFC /* 排行 */,
+				25B648EE1F5FF34800490BFC /* 发现 */,
+				25B648F21F5FF34800490BFC /* 我的 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		25B648E91F5FF34800490BFC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				25B6491A1F60F28C00490BFC /* Extension */,
+				25B6491D1F60F28C00490BFC /* Tools */,
+				25B648EA1F5FF34800490BFC /* Controller */,
+				25B648EC1F5FF34800490BFC /* Model */,
+				25B648ED1F5FF34800490BFC /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		25B648EA1F5FF34800490BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25B648EB1F5FF34800490BFC /* WKTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25B648EC1F5FF34800490BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B648ED1F5FF34800490BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B648E61F5FF28300490BFC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25B648EE1F5FF34800490BFC /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				25B648EF1F5FF34800490BFC /* Controller */,
+				25B648F01F5FF34800490BFC /* Model */,
+				25B648F11F5FF34800490BFC /* View */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		25B648EF1F5FF34800490BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25B649091F5FFC4800490BFC /* WKFindViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25B648F01F5FF34800490BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B648F11F5FF34800490BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B6490B1F5FFC5100490BFC /* WKFindViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25B648F21F5FF34800490BFC /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				25B648F31F5FF34800490BFC /* Controller */,
+				25B648F41F5FF34800490BFC /* Model */,
+				25B648F51F5FF34800490BFC /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		25B648F31F5FF34800490BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25B6490D1F5FFC5F00490BFC /* WKMyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25B648F41F5FF34800490BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B648F51F5FF34800490BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B6490F1F5FFC6900490BFC /* WKMyViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25B648F61F5FF34800490BFC /* 排行 */ = {
+			isa = PBXGroup;
+			children = (
+				25B648F71F5FF34800490BFC /* Controller */,
+				25B648F81F5FF34800490BFC /* Model */,
+				25B648F91F5FF34800490BFC /* View */,
+			);
+			path = "排行";
+			sourceTree = "<group>";
+		};
+		25B648F71F5FF34800490BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25B649051F5FFC1E00490BFC /* WKRankViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25B648F81F5FF34800490BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B648F91F5FF34800490BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B649071F5FFC2B00490BFC /* WKRankViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25B648FA1F5FF34800490BFC /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				25B648FB1F5FF34800490BFC /* Controller */,
+				25B648FC1F5FF34800490BFC /* Model */,
+				25B648FD1F5FF34800490BFC /* View */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		25B648FB1F5FF34800490BFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25B648FF1F5FF39200490BFC /* WKLiveViewController.swift */,
+				25B649151F6001E500490BFC /* WKNavViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25B648FC1F5FF34800490BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B648FD1F5FF34800490BFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B649031F5FF3B100490BFC /* WKLiveViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25B6491A1F60F28C00490BFC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25B6491B1F60F28C00490BFC /* UIBarButtonItem-Extension.swift */,
+				25B6491C1F60F28C00490BFC /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		25B6491D1F60F28C00490BFC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +404,7 @@
 		25B648A91F5FEF3000490BFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WK;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "阿拉斯加的🐶";
@@ -235,9 +453,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B648E71F5FF28300490BFC /* Main.storyboard in Resources */,
 				25B648BF1F5FEF3000490BFC /* LaunchScreen.storyboard in Resources */,
 				25B648BC1F5FEF3000490BFC /* Assets.xcassets in Resources */,
-				25B648BA1F5FEF3000490BFC /* Main.storyboard in Resources */,
+				25B649081F5FFC2B00490BFC /* WKRankViewController.storyboard in Resources */,
+				25B6490C1F5FFC5100490BFC /* WKFindViewController.storyboard in Resources */,
+				25B649041F5FF3B100490BFC /* WKLiveViewController.storyboard in Resources */,
+				25B649101F5FFC6900490BFC /* WKMyViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +484,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B648B71F5FEF3000490BFC /* ViewController.swift in Sources */,
+				25B6491E1F60F28C00490BFC /* UIBarButtonItem-Extension.swift in Sources */,
+				25B6490E1F5FFC5F00490BFC /* WKMyViewController.swift in Sources */,
+				25B6491F1F60F28C00490BFC /* UIColor+Extension.swift in Sources */,
+				25B6490A1F5FFC4800490BFC /* WKFindViewController.swift in Sources */,
 				25B648B51F5FEF3000490BFC /* AppDelegate.swift in Sources */,
+				25B649161F6001E500490BFC /* WKNavViewController.swift in Sources */,
+				25B649011F5FF39200490BFC /* WKLiveViewController.swift in Sources */,
+				25B649061F5FFC1E00490BFC /* WKRankViewController.swift in Sources */,
+				25B648FE1F5FF34800490BFC /* WKTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +528,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		25B648B81F5FEF3000490BFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25B648B91F5FEF3000490BFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		25B648BD1F5FEF3000490BFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,8 +636,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8Y2G5F25VK;
 				INFOPLIST_FILE = WKZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.colorfulclouds.app.WKZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +651,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8Y2G5F25VK;
 				INFOPLIST_FILE = WKZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.colorfulclouds.app.WKZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";

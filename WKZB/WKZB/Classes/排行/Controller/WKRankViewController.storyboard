@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XMJ-Mc-npW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rank View Controller-->
+        <scene sceneID="DLW-3C-ysW">
+            <objects>
+                <viewController id="FpL-6B-vOq" customClass="WKRankViewController" customModule="WKZB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7FI-bw-OWN"/>
+                        <viewControllerLayoutGuide type="bottom" id="i2W-pR-dBU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cxl-my-3Le">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kyX-7g-XDh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hy0-cd-cdt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="161"/>
+        </scene>
+        <!--附近-->
+        <scene sceneID="pXy-UY-dKT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XMJ-Mc-npW" customClass="WKNavViewController" customModule="WKZB" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="附近" image="tab_near" selectedImage="tab_near_p" id="W1r-ZX-FJd"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wk4-N0-sxP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FpL-6B-vOq" kind="relationship" relationship="rootViewController" id="mDN-ho-CPA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhD-Nu-VBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213.59999999999999" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_near" width="25" height="25"/>
+        <image name="tab_near_p" width="25" height="25"/>
+    </resources>
+</document>

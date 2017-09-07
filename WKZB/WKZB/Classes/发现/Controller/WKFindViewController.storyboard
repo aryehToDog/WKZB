@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Eoc-KB-BFP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Find View Controller-->
+        <scene sceneID="kx7-Ac-h0K">
+            <objects>
+                <viewController id="FFS-Wr-CR2" customClass="WKFindViewController" customModule="WKZB" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mcx-g1-JUb"/>
+                        <viewControllerLayoutGuide type="bottom" id="K2b-sd-lh4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="77m-Cn-NSl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kzu-tH-ApG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vcR-Y5-8nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="161"/>
+        </scene>
+        <!--关注-->
+        <scene sceneID="Csr-3w-Xw5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Eoc-KB-BFP" customClass="WKNavViewController" customModule="WKZB" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="tab_following" selectedImage="tab_following_p" id="cvs-d4-kTu"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Jl-N4-juA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FFS-Wr-CR2" kind="relationship" relationship="rootViewController" id="wiu-1Y-bKf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDV-BV-XcA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213.59999999999999" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_following" width="25" height="25"/>
+        <image name="tab_following_p" width="25" height="25"/>
+    </resources>
+</document>
